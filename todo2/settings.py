@@ -41,7 +41,7 @@ if environment == 'development':
 
 elif environment == "production":
      DEBUG = False
-     ALLOWED_HOSTS = ['kergs-todo2.herokuapp.com']
+     ALLOWED_HOSTS = ['kergs-todoers.herokuapp.com']
      DATABASES ={}
      DATABASES['default'] = dj_database_url.config()
 
